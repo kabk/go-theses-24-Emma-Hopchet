@@ -120,6 +120,14 @@
    
 }
 
+
+.ornamentsimg{
+    position: absolute;
+    top: 460px;
+     width: 100vw;
+    
+}
+
 .container {
     /* background-image: url('/assets/image/Plan\ de\ travail\ 11.png'); */
     padding-left: 2vw;
