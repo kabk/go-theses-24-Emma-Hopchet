@@ -103,6 +103,8 @@
     margin-right: 8px;
     font-family: 'JunicodeCondenced';
     font-weight: bold;
+    border-radius: 10px;
+    box-shadow: rgb(102, 42, 82) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .menu {
@@ -112,7 +114,6 @@
     margin-top: -80px;
     margin-bottom: 170px;
     text-align: center;
-    
 }
 
 
@@ -124,8 +125,10 @@
     padding-top: 5px;
     padding-right: 5px;
     text-align: center;
+    border-radius: 10px;
+    
+    
 }
-
 
 .container {
     padding-left: 2vw;
