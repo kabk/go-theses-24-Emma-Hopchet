@@ -1,0 +1,435 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Colour';
+    src: url('/assets/fonts/ColourMePurple.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Fraktur';
+    src: url('/assets/fonts/UnifrakturCook-Bold.ttf') format('ttf');
+}
+
+
+@font-face {
+    font-family: 'Junicode';
+    src: url('/assets/fonts/junicode-master/junicode-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/junicode-master/junicode-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Junicode';
+    src: url('/assets/fonts/junicode-master/junicode-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/junicode-master/junicode-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Junicode';
+    src: url('/assets/font/junicode-master/junicode-italic-webfont.woff2') format('woff2'),
+         url('/assets/font/junicode-master/junicode-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Condensed variations */
+@font-face {
+    font-family: 'JunicodeCondenced';
+    src: url('/assets/font/junicode-master/junicode-regularcondensed-webfont.woff2') format('woff2'),
+         url('/assets/font/junicode-master/junicode-regularcondensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JunicodeCondenced';
+    src: url('/assets/fonts/junicode-master/junicode-boldcondensed-webfont.woff2') format('woff2'),
+         url('/assets/font/junicode-master/junicode-boldcondensed-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JunicodeCondenced';
+    src: url('/assets/font/junicode-master/junicode-italiccondensed-webfont.woff2') format('woff2'),
+         url('/assets/font/junicode-master/junicode-italiccondensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.title{
+    display: block;
+    margin-left: 30px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.titledesign{
+    position:fixed;
+    display: block;
+    position: relative;
+    /* margin-left: 8%; */
+    width: 1000px;
+    justify-content: center;
+    /* margin-bottom: -400px; */
+    
+}
+.titlegif{
+    width: 100vw;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 100px;
+    text-align: center;
+    
+}
+
+
+
+.gif {
+    height: 100px;
+    justify-content: center;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+
+.container {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.chapter-image, .chapter-content {
+    width: 50%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.chapter-image, .chapter-content-introduction {
+    color:black;
+    width: 50%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+h1{
+    font-family: 'JunicodeCondenced';
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: -20px;
+    /* font-weight: normal; */
+}
+
+h2 {
+    font-family: 'Junicode';
+    font-weight: normal;
+    text-decoration: underline;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: -20px;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(214, 165, 198); */
+  }
+
+h3 {
+    font-family: 'JunicodeCondenced';
+    font-weight: normal;
+    text-decoration: underline;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: -10px;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(214, 165, 198); */
+  }
+
+
+/* .title-abstract{
+    font-family: 'Junicode';
+    font-weight: bold;
+    padding-top: -3em;
+} */
+
+/* .chapter-content-introduction{
+    font-size: 30px;
+} */
+
+
+
+.img {
+    position: relative;
+}
+
+img.sticky{
+    width: 100%;
+    height:auto;
+    max-height:100vh;
+    z-index:-1;
+    position: sticky;
+    top: 0;
+    margin-top:0;
+    object-fit: contain;
+}
+
+img.inside-textleft {
+    float: left;
+    clear: left;
+    width: 25%;
+    /* scale: 30%; */
+    /* max-width: 10em; */
+    margin-left: calc(-25% - 1rem);
+    /* margin-left: calc(-50% + 100px); */
+    height: auto;
+    /* filter: brightness(90%) grayscale(60%) contrast(400%); */
+    /* filter: brightness(200%); */
+    /* filter: contrast(150%); */
+}
+
+img.inside-textright {
+    float: right;
+    clear: right;
+    width: 25%;
+    margin-right: calc(-25% - 1rem);
+    height: auto;
+}
+
+
+.experiment{
+    color:rgb(239, 153, 210);
+    font-family: 'Junicode';
+    text-decoration: none;
+    text-decoration-line:none;
+}
+
+.mywork{
+    display: flex;
+    width: 20%;
+    padding-left: 1%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.quote{
+    font-family: 'JunicodeCondensed';
+    font-style: italic;
+    font-weight: bold;
+    /* background-color: blue;
+    color: white; */
+}
+
+.footnote-ref {
+    margin-left: .25rem;
+    text-decoration: none;
+
+}
+
+.footnote-ref sup {
+    font-size: 1rem;
+    vertical-align:middle;
+    color:rgb(239, 153, 210);
+    /* background: green; */
+    font-family: 'Junicode';
+    font-style:normal;
+    font-weight: bold;
+}
+
+.footnote-back {
+    margin-left: .25rem;
+    color: rgb(0, 0, 0);
+    background: rgb(239, 153, 210);
+}
+
+.back-to-top {
+    text-decoration: none;
+    position: sticky;
+    top: 3px; left: 3px;
+    color:rgb(239, 153, 210);
+}
+
+
+
+.reference-bottom {
+    display: block;
+    /* column-span: all; */
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style:hidden;
+    text-align: left;
+    /* margin-right: 20%; */
+    font-family: 'Junicode';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+body{
+    background-color: #ffffff;
+    color: #111;
+    counter-reset: sidenote-counter;   
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: normal;
+    
+}
+
+/* ----------------------------------------- */
+
+
+
+@media (max-width: 700px) { 
+    body {
+        font-size: 10px;
+    }   
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        margin-top: -20px;
+        /* margin-left: 20%;
+        margin-right: 20%; */
+        /* background-color: black;
+        border-radius: 25px; */
+    }
+    
+    img.gif {
+        /* filter: brightness(100%);
+        filter: invert(100%); */
+        width:max-content;
+        justify-content: center;
+        /* padding-left: 5px;
+        padding-top: 5px;
+        padding-right: 5px; */
+        /* border: 2px solid;
+        border-color: brown; */
+    }
+
+    .container {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    h1{
+        font-size: 30px;
+        margin-bottom: -10px;
+    }
+    h2{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    img.sticky{
+        display: none;
+        width: 10%;
+        height:auto;
+        max-height:100vh;
+        z-index:-1;
+        position: relative;
+
+        top: 0;
+        margin-top:0;
+        margin-left: 20%;
+        object-fit: contain;
+    }
+    
+    .chapter-image, .chapter-content {
+        
+        width: 100%;
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
+    
+    .chapter-image, .chapter-content-introduction {
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        width: 100%;
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
+
+
+    img.inside-textright {
+        float: left;
+        clear: left;
+        width: 20%;
+        margin-left: 2em;
+        margin-right: 2em;
+        /* margin-bottom: 2em; */
+        height: auto;
+    }
+
+    img.inside-textleft {
+        float: left;
+        clear: left;
+        width: 20%;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        height: auto;
+    }
+
+    figcaption {
+        font-size: x-small;
+    }
+    .mywork{
+        display: flex;
+        position: relative;
+        width: 20%;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .footnote-ref {
+        margin-left: 2px;
+        text-decoration: none;
+    
+    }
+
+    .footnote-ref sup {
+        font-size: 10px;
+        color:rgb(239, 153, 210);
+        /* background: green; */
+        font-family: 'Junicode';
+        font-style:normal;
+        font-weight: bold;
+        vertical-align:middle;
+    }
+
+    .reference-bottom {
+        font-size: 10px;
+        column-count: 1;
+    }
+
+}
+
+/* @supports (-webkit-appearance: none) {
+    body {
+        font-size: 40px;
+    }
+} */
