@@ -3,16 +3,6 @@
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'Colour';
-    src: url('/assets/fonts/ColourMePurple.ttf') format('ttf');
-}
-
-@font-face {
-    font-family: 'Fraktur';
-    src: url('/assets/fonts/UnifrakturCook-Bold.ttf') format('ttf');
-}
-
 
 @font-face {
     font-family: 'Junicode';
@@ -63,6 +53,8 @@
     font-style: italic;
 }
 
+
+
 .title{
     display: block;
     margin-left: 30px;
@@ -70,7 +62,8 @@
     text-align: center;
 }
 
-.titledesign{
+.titledesign {
+    /* background-image: url('/assets/image/Plan\ de\ travail\ 11.png'), 50px 50px; */
     position:fixed;
     display: block;
     position: relative;
@@ -95,8 +88,8 @@
 }
 
 .block{
-    background-color: rgb(239, 153, 210);
-    width: 9%;
+    /* background-color: white; */
+    width: 130px;
     padding-top: 6px;
     height: 35px;
     margin-left: 8px;
@@ -104,7 +97,7 @@
     font-family: 'JunicodeCondenced';
     font-weight: bold;
     border-radius: 10px;
-    box-shadow: rgb(102, 42, 82) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgb(216, 115, 182) 0px 10px 38px, rgba(0, 0, 0, 0.22) 0px 25px 16px;
 }
 
 .menu {
@@ -116,8 +109,6 @@
     text-align: center;
 }
 
-
-
 .gif {
     height: 100px;
     justify-content: center;
@@ -126,11 +117,11 @@
     padding-right: 5px;
     text-align: center;
     border-radius: 10px;
-    
-    
+   
 }
 
 .container {
+    /* background-image: url('/assets/image/Plan\ de\ travail\ 11.png'); */
     padding-left: 2vw;
     padding-right: 2vw;
     display: flex;
@@ -144,11 +135,6 @@
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-.chapter-image, .chapter-content-introduction {
-    color:black;
-    width: 50%;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-}
 
 h1{
     font-family: 'JunicodeCondenced';
@@ -309,9 +295,9 @@ img.inside-textright {
 }
 
 
-body{
+body{    
     background-color: #ffffff;
-    color: #111;
+    color:rgb(50, 48, 48);
     counter-reset: sidenote-counter;   
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
@@ -456,9 +442,3 @@ body{
     }
 
 }
-
-/* @supports (-webkit-appearance: none) {
-    body {
-        font-size: 40px;
-    }
-} */
