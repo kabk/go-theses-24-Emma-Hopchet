@@ -292,9 +292,9 @@ img.inside-textright {
 .reference-bottom {
     display: block;
     /* column-span: all; */
-    column-count: 2;
+    /* column-count: 2;
     column-gap: 40px;
-    column-rule-style:hidden;
+    column-rule-style:hidden; */
     text-align: left;
     /* margin-right: 20%; */
     font-family: 'Junicode';
