@@ -85,7 +85,6 @@
     justify-content: center;
     row-gap: 150px;
     top: -50px;
-    /* margin-bottom: 100px; */
     text-align: center;
 }
 
@@ -93,7 +92,7 @@
     width: 160px;
     padding-top: 6px;
     height: 150px;
-    margin-top: -420px;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     font-size:15pt;
@@ -116,6 +115,8 @@
 }
 
 .ornamentsimg{
+    margin-top: -200px;
+    margin-bottom: 50px;
     z-index: -1;
     width: 100vw;
     
@@ -318,12 +319,12 @@ body{
 @media (max-width: 700px) { 
     body {
         font-size: 15px;
+        width: 100%;
     }   
 
     .menu-title {
         display: none;
     }
-
 
 
 
@@ -337,7 +338,6 @@ body{
         row-gap: 20px;
         top: 0px;
         margin-top: 10px;
-        margin-bottom: 70px;
         text-align: center;
     }
     
@@ -364,11 +364,13 @@ body{
         padding-right: 5px;
         text-align: center;
         border-radius: 10px;
+        
     }
     
     .ornamentsimg{
-        position: absolute;
-        margin-top: 250px;
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 0px;
         z-index: -1;
         width: 100vw;
         
