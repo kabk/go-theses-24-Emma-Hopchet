@@ -12,6 +12,7 @@
     font-style: normal;
 }
 
+
 @font-face {
     font-family: 'Junicode';
     src: url('/assets/fonts/junicode-master/junicode-bold-webfont.woff2') format('woff2'),
@@ -19,6 +20,7 @@
     font-weight: bold;
     font-style: normal;
 }
+
 
 @font-face {
     font-family: 'Junicode';
@@ -83,7 +85,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 150px;
+    row-gap: 10px;
     top: -50px;
     text-align: center;
 }
@@ -290,17 +292,21 @@ img.inside-textright {
 
 .reference-bottom {
     display: block;
-    /* column-span: all; */
-    /* column-count: 2;
-    column-gap: 40px;
-    column-rule-style:hidden; */
     text-align: left;
-    /* margin-right: 20%; */
+    margin-right: 50%;
     font-family: 'Junicode';
     font-weight: bold;
     font-size: 15px;
 }
 
+.image-references{
+    display: block;
+    text-align: left;
+    margin-right: 50%;
+    font-family: 'Junicode';
+    font-weight: bold;
+    font-size: 15px;
+}
 
 body{    
     background-color: #ffffff;
@@ -317,15 +323,17 @@ body{
 
 
 @media (max-width: 700px) { 
+
+
     body {
         font-size: 15px;
         width: 100%;
+        max-width: 600px
     }   
 
     .menu-title {
         display: none;
     }
-
 
 
 
@@ -476,6 +484,8 @@ body{
     .reference-bottom {
         font-size: 10px;
         column-count: 1;
+        margin-right: 20%;
+        
     }
 
 }
