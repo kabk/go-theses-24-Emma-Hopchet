@@ -127,7 +127,6 @@
 
 
 
-
 .container {
     /* background-image: url('/assets/image/Plan\ de\ travail\ 11.png'); */
     padding-left: 2vw;
@@ -233,6 +232,21 @@ img.inside-textright {
     height: auto;
 }
 
+/* .ornaments1{
+    width: 100vw;
+    height: 20px;
+} */
+
+
+.ornamentsimg1{
+    position:relative;
+    width: 100vw;
+    /* height: 20px; */
+    /* height: 100px; */
+    /* background-color: blue; */
+}
+
+
 
 .experiment{
     color:rgb(239, 153, 210);
@@ -256,6 +270,8 @@ img.inside-textright {
     /* background-color: blue;
     color: white; */
 }
+
+
 
 .footnote-ref {
     margin-left: .25rem;
@@ -289,7 +305,6 @@ img.inside-textright {
 }
 
 
-
 .reference-bottom {
     display: block;
     text-align: left;
@@ -302,6 +317,7 @@ img.inside-textright {
 .image-references{
     display: block;
     text-align: left;
+    box-sizing: border-box;
     margin-right: 50%;
     font-family: 'Junicode';
     font-weight: bold;
