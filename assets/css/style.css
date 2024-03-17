@@ -314,15 +314,7 @@ img.inside-textright {
     font-size: 15px;
 }
 
-.image-references{
-    display: block;
-    text-align: left;
-    box-sizing: border-box;
-    margin-right: 50%;
-    font-family: 'Junicode';
-    font-weight: bold;
-    font-size: 15px;
-}
+
 
 body{    
     background-color: #ffffff;
@@ -505,10 +497,6 @@ body{
         
     }
 
-    .image-references{
-        font-size: 10px;
-        column-count: 1;
-        margin-right: 20%;
-    }
+    
 
 }
