@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'Junicode';
-    src: url('/assets/font/junicode-master/junicode-italic-webfont.woff2') format('woff2'),
-         url('/assets/font/junicode-master/junicode-italic-webfont.woff') format('woff');
+    src: url('/assets/fonts/junicode-master/junicode-italic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/junicode-master/junicode-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
@@ -33,8 +33,8 @@
 /* Condensed variations */
 @font-face {
     font-family: 'JunicodeCondenced';
-    src: url('/assets/font/junicode-master/junicode-regularcondensed-webfont.woff2') format('woff2'),
-         url('/assets/font/junicode-master/junicode-regularcondensed-webfont.woff') format('woff');
+    src: url('/assets/fonts/junicode-master/junicode-regularcondensed-webfont.woff2') format('woff2'),
+         url('/assets/fonts/junicode-master/junicode-regularcondensed-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -42,15 +42,15 @@
 @font-face {
     font-family: 'JunicodeCondenced';
     src: url('/assets/fonts/junicode-master/junicode-boldcondensed-webfont.woff2') format('woff2'),
-         url('/assets/font/junicode-master/junicode-boldcondensed-webfont.woff') format('woff');
+         url('/assets/fonts/junicode-master/junicode-boldcondensed-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'JunicodeCondenced';
-    src: url('/assets/font/junicode-master/junicode-italiccondensed-webfont.woff2') format('woff2'),
-         url('/assets/font/junicode-master/junicode-italiccondensed-webfont.woff') format('woff');
+    src: url('/assets/fonts/junicode-master/junicode-italiccondensed-webfont.woff2') format('woff2'),
+         url('/assets/fonts/junicode-master/junicode-italiccondensed-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
